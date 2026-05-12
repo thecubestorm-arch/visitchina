@@ -4,7 +4,7 @@ import FooterCTA from '@/components/FooterCTA'
 
 export const metadata = {
   title: 'Visum für China — Schweizer:innen brauchen keins für 30 Tage',
-  description: 'Schweizer:innen können seit Dezember 2023 bis zu 30 Tage visumfrei nach China reisen. Alles zum Visum, Einreisebestimmungen und Verlängerung.',
+  description: 'Schweizer:innen können seit Ende 2024 bis zu 30 Tage visumfrei nach China reisen. Alles zum Visum, Einreisebestimmungen und Verlängerung.',
   alternates: { canonical: 'https://visitchina.ch/china-basics/visa' },
 }
 
@@ -28,7 +28,7 @@ export default function VisaPage() {
       jsonLd={jsonLd}
     >
       <div className="callout">
-        <p><strong>🇨🇭 Gute Nachricht:</strong> Seit dem 15. Dezember 2023 gilt die visumfreie Einreise für Schweizer Staatsbürger:innen — bis zu 30 Tage pro Aufenthalt, für Touristik, Geschäftsreisen und Familienbesuche.</p>
+        <p><strong>🇨🇭 Gute Nachricht:</strong> Seit dem 30. November 2024 gilt die visumfreie Einreise für Schweizer Staatsbürger:innen — bis zu 30 Tage pro Aufenthalt, für Touristik, Geschäftsreisen und Familienbesuche.</p>
       </div>
 
       <h2>Visumfreie Einreise für Schweizer:innen</h2>

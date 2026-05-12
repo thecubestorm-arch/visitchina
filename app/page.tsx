@@ -107,7 +107,7 @@ const decisionCards = [
 const faqItems = [
   {
     question: 'Brauche ich als Schweizer:in ein Visum für China?',
-    answer: 'Nein! Seit Dezember 2023 können Schweizer Staatsbürger:innen bis zu 30 Tage visumfrei nach China reisen. Für längere Aufenthalte brauchst du ein Visum — alle Infos im Visum-Guide.',
+    answer: 'Nein! Seit November 2024 können Schweizer Staatsbürger:innen bis zu 30 Tage visumfrei nach China reisen. Für längere Aufenthalte brauchst du ein Visum — alle Infos im Visum-Guide.',
   },
   {
     question: 'Wie bezahle ich in China als Schweizer:in?',
@@ -210,7 +210,7 @@ export default function HomePage() {
             30 Tage visumfrei nach China
           </h2>
           <p className="mt-3 text-[var(--muted)] max-w-lg mx-auto">
-            Seit Dezember 2023 gilt die visumfreie Einreise für Schweizer Staatsbürger:innen — bis 30 Tage pro Aufenthalt. Kein Visum, keine Einladung, kein Stress.
+            Seit November 2024 gilt die visumfreie Einreise für Schweizer Staatsbürger:innen — bis 30 Tage pro Aufenthalt. Kein Visum, keine Einladung, kein Stress.
           </p>
           <a
             href="/china-basics/visa"
