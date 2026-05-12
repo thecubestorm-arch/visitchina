@@ -19,12 +19,12 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL('https://visitchina.ch'),
   title: {
-    default: 'VisitChina.ch — Der Schweizer Reiseführer für China',
+    default: 'VisitChina.ch — China reisen ohne Verwirrung',
     template: '%s | VisitChina.ch',
   },
   description:
-    'China-Reise planen? Praktische Guides, eSIM-Tipps, VPN-Empfehlungen und Visa-Infos — alles für Schweizer China-Reisende.',
-  keywords: 'China Reise,China Reiseführer,Schweizer China Reise,China Visum,eSIM China,VPN China,China Basics',
+    'China reisen ohne Verwirrung. Kostenlose Guides: Visa, eSIM, VPN, Bezahl-Apps, Züge und Reiserouten — alles auf Deutsch.',
+  keywords: 'China Reise,China Reiseführer,China planen,China Visum,eSIM China,VPN China,China Basics,China Route',
   icons: {
     icon: [
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   openGraph: {
-    locale: 'de_CH',
+    locale: 'de',
     siteName: 'VisitChina.ch',
   },
 }
@@ -46,13 +46,13 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const organizationJsonLd = {
+  const websiteJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Organization',
+    '@type': 'WebSite',
     name: 'VisitChina.ch',
     url: 'https://visitchina.ch',
-    logo: 'https://visitchina.ch/favicon.svg',
-    sameAs: [],
+    description: 'China reisen ohne Verwirrung — Kostenlose Guides für Visa, eSIM, VPN, Bezahl-Apps und Reiserouten.',
+    inLanguage: 'de',
   }
 
   return (
@@ -60,7 +60,7 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
       </head>
       <body className="antialiased" style={{ backgroundColor: '#f5f1ea' }}>

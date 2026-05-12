@@ -211,3 +211,9 @@ a {
 .prose-china .comparison-table tr:hover td {
   background: rgba(175,93,50,0.04);
 }
+
+/* Mobile-specific fixes */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
