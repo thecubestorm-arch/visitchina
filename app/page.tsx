@@ -15,10 +15,10 @@ import FooterCTA from '@/components/FooterCTA'
 import ExploreChinaSection from './ExploreChinaSection'
 
 const trustSignals = [
-  '🛡️ 30 Tage visumfrei',
-  '💳 Bezahlen',
-  '📶 Internet',
-  '📲 Apps',
+  '✓ Aktualisiert 2026',
+  '🛡️ nDSG-konform',
+  '📱 Praxiserprobt',
+  '✓ Unabhängige Guides',
 ]
 
 const decisionCards = [
@@ -147,7 +147,7 @@ export default function HomePage() {
           <div className="relative mx-auto w-full max-w-6xl px-4 py-14 md:px-6 md:py-20">
             <div className="max-w-3xl">
               <h1 className="text-4xl font-bold leading-[1.02] text-white sm:text-5xl md:text-6xl">
-                China ohne Chaos
+                China ohne Verwirrung
               </h1>
               <p className="mt-5 max-w-2xl text-base leading-7 text-white/90 sm:text-lg">
                 Erweiterte visumfreie Einreise, mobile Reise-Tools und schnelle Züge machen China
