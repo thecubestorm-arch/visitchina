@@ -17,7 +17,7 @@ export default function ZieleClient() {
             Unsere Reiseziele
           </h1>
           <p className="mt-3 max-w-2xl text-base leading-7 text-[#5f6f7a]">
-            7 Ziele, handverlesen für Erstreisende — mit Schweizer Perspektive.
+            7 Ziele, die für Erstreisende am meisten Sinn machen — mit klaren, entscheidungsrelevanten Infos.
           </p>
         </div>
       </section>

@@ -3,8 +3,8 @@ import AffiliateCTA from '@/components/AffiliateCTA'
 import FooterCTA from '@/components/FooterCTA'
 
 export const metadata = {
-  title: 'Bezahlen in China — Alipay, WeChat Pay & Bargeld für Schweizer:innen',
-  description: 'So bezahlst du in China als Schweizer:in: Alipay und WeChat Pay mit Schweizer Karte einrichten, Bargeld-Tipps und POSTCARD-Kompatibilität.',
+  title: 'Bezahlen in China — Alipay, WeChat Pay & Bargeld',
+  description: 'So bezahlst du in China: Alipay und WeChat Pay einrichten, ausländische Karten verknüpfen, Bargeld-Tipps und Was-du-wissen-musst.',
   alternates: { canonical: 'https://visitchina.ch/china-basics/bezahlung' },
 }
 
@@ -12,7 +12,7 @@ export default function PaymentPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Bezahlen in China — Alipay, WeChat Pay & Bargeld für Schweizer:innen',
+    headline: 'Bezahlen in China — Alipay, WeChat Pay & Bargeld',
     description: metadata.description,
     url: 'https://visitchina.ch/china-basics/bezahlung',
     publisher: { '@type': 'Organization', name: 'VisitChina.ch' },
@@ -22,7 +22,7 @@ export default function PaymentPage() {
     <DetailPageLayout
       breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'China-Basics', href: '/china-basics' }, { label: 'Bezahlen' }]}
       title="Bezahlen in China"
-      subtitle="In China bezahlt fast alles per Handy — hier erfährst du, wie du als Schweizer:in mit Alipay und WeChat Pay bezahlst."
+      subtitle="In China bezahlt fast alles per Handy — hier erfährst du, wie du mit Alipay und WeChat Pay bezahlst."
       heroImage="https://picsum.photos/seed/china-alipay-pay/800/400"
       updatedDate="12. Mai 2026"
       jsonLd={jsonLd}

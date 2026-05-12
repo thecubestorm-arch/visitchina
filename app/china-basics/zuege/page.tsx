@@ -4,7 +4,7 @@ import FooterCTA from '@/components/FooterCTA'
 
 export const metadata = {
   title: 'Züge in China — Hochgeschwindigkeitszüge, Buchung & Klassen',
-  description: 'Chinas Hochgeschwindigkeitszüge sind schnell, günstig und komfortabel. Buchung über Trip.com oder 12306, Klassen-Vergleich und Tipps für Schweizer:innen.',
+  description: 'Chinas Hochgeschwindigkeitszüge sind schnell, günstig und komfortabel. Buchung über Trip.com oder 12306, Klassen-Vergleich und Tipps für Erstreisende.',
   alternates: { canonical: 'https://visitchina.ch/china-basics/zuege' },
 }
 

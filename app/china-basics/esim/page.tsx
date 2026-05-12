@@ -3,8 +3,8 @@ import AffiliateCTA from '@/components/AffiliateCTA'
 import FooterCTA from '@/components/FooterCTA'
 
 export const metadata = {
-  title: 'eSIM für China — Vergleich & Einrichtung für Schweizer:innen',
-  description: 'eSIM-Vergleich für Schweizer China-Reisende: Airalo, Holafly, Maya Mobile und mehr. Setup-Anleitung, Preise und Empfehlungen.',
+  title: 'eSIM für China — Vergleich & Einrichtung',
+  description: 'eSIM-Vergleich für China-Reisende: Airalo, Holafly, Maya Mobile und mehr. Setup-Anleitung, Preise und Empfehlungen.',
   alternates: { canonical: 'https://visitchina.ch/china-basics/esim' },
 }
 
@@ -12,7 +12,7 @@ export default function ESIMPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'eSIM für China — Vergleich & Einrichtung für Schweizer:innen',
+    headline: 'eSIM für China — Vergleich & Einrichtung',
     description: metadata.description,
     url: 'https://visitchina.ch/china-basics/esim',
     publisher: { '@type': 'Organization', name: 'VisitChina.ch' },

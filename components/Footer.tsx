@@ -27,7 +27,7 @@ export default function Footer() {
 
         {/* Second row: description */}
         <p className="max-w-md text-sm leading-7 text-[var(--muted)]">
-          Praktischer Reiseführer für Schweizerinnen und Schweizer, die zum ersten Mal nach China reisen — mit klaren Tipps, ruhiger Vorbereitung und smarten Routen.
+          China reisen ohne Verwirrung — klare Tipps, ruhige Vorbereitung und smarte Routen für Erstreisende.
         </p>
 
         {/* Divider */}

@@ -3,8 +3,8 @@ import AffiliateCTA from '@/components/AffiliateCTA'
 import FooterCTA from '@/components/FooterCTA'
 
 export const metadata = {
-  title: 'Visum für China — Schweizer:innen brauchen keins für 30 Tage',
-  description: 'Schweizer:innen können seit Ende 2024 bis zu 30 Tage visumfrei nach China reisen. Alles zum Visum, Einreisebestimmungen und Verlängerung.',
+  title: 'Visum für China — 30 Tage visumfrei',
+  description: '30 Tage visumfreie Einreise für viele Nationalitäten. Alles zum Visum, Einreisebestimmungen und Verlängerung.',
   alternates: { canonical: 'https://visitchina.ch/china-basics/visa' },
 }
 
@@ -12,7 +12,7 @@ export default function VisaPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Visum für China — Schweizer:innen brauchen keins für 30 Tage',
+    headline: 'Visum für China — 30 Tage visumfrei',
     description: metadata.description,
     url: 'https://visitchina.ch/china-basics/visa',
     publisher: { '@type': 'Organization', name: 'VisitChina.ch' },

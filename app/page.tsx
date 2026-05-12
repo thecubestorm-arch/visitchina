@@ -18,7 +18,7 @@ import {
 import FooterCTA from '@/components/FooterCTA'
 
 const trustSignals = [
-  '.ch Domain — Schweizer Qualität',
+  '.ch Domain — Vertrauenswürdig & sicher',
   'Aktualisiert 2026',
   'nDSG-konform',
   'Kostenlos & werbefrei',

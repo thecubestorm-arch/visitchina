@@ -4,8 +4,8 @@ import FooterCTA from '@/components/FooterCTA'
 import AffiliateCTA from '@/components/AffiliateCTA'
 
 export const metadata = {
-  title: 'Reise planen — Routen, Budget & beste Reisezeit für Schweizer:innen',
-  description: 'China-Reise planen? Reiserouten, Budget in CHF, beste Reisezeit und praktische Checkliste — alles für Schweizer:innen.',
+  title: 'Reise planen — Routen, Budget & beste Reisezeit',
+  description: 'China-Reise planen? Reiserouten, Budget in CHF, beste Reisezeit und praktische Checkliste — alles, was du brauchst.',
   alternates: { canonical: 'https://visitchina.ch/reise-planen' },
 }
 

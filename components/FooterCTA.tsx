@@ -21,7 +21,7 @@ export default function FooterCTA({
   href,
   label,
   quickInfo,
-  trustText = 'Kostenlose Guides · Regelmässig aktualisiert · Für Schweizer China-Reisende',
+  trustText = 'Kostenlose Guides · Regelmässig aktualisiert · Für Erstreisende nach China',
 }: FooterCTAProps) {
   // Simple CTA mode: just title + subtitle + link button
   if (href && !quickInfo) {
