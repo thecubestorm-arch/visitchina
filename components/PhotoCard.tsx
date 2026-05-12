@@ -1,22 +1,23 @@
 import Link from 'next/link'
+import type { ElementType } from 'react'
 
 interface PhotoCardProps {
   href: string
   image: string
-  icon: string
+  icon: ElementType
   name: string
   subtitle: string
   chips?: string[]
 }
 
-export default function PhotoCard({ href, image, icon, name, subtitle, chips }: PhotoCardProps) {
+export default function PhotoCard({ href, image, icon: Icon, name, subtitle, chips }: PhotoCardProps) {
   return (
     <Link
       href={href}
       className="group block overflow-hidden rounded-2xl border border-[var(--line)] bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-0.5"
     >
       <div className="relative h-44 w-full overflow-hidden">
-        <div className="absolute inset-x-0 top-0 h-1 bg-[#af5d32]" />
+        <div className="absolute inset-x-0 top-0 h-1 bg-[#af5d32] z-10" />
         <img
           src={image}
           alt={name}
@@ -26,7 +27,7 @@ export default function PhotoCard({ href, image, icon, name, subtitle, chips }: 
       </div>
       <div className="p-4">
         <div className="flex items-center gap-2">
-          <span className="text-xl">{icon}</span>
+          <Icon size={18} className="text-[#af5d32]" />
           <h3 className="font-serif text-lg text-[var(--foreground)] group-hover:text-[#af5d32] transition-colors">
             {name}
           </h3>
