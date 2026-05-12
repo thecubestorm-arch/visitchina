@@ -1,41 +1,36 @@
-# VisitChina.ch — Swiss-Focused China Travel Guide
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Setup Instructions
+## Getting Started
 
-1. Create GitHub repo: `thecubestorm-arch/visitchina-ch` (public)
-2. Push this repo to GitHub
-3. Create Vercel project linked to this repo
-4. Add domain `visitchina.ch` in Vercel
+First, run the development server:
 
-## Architecture
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- Next.js 15 + React 19 + Tailwind CSS
-- Static export (`output: 'export'`)
-- Same design system as trailofchina.com
-- German language (Hochdeutsch, Swiss-focused)
-- Deep links to trailofchina.com for detailed content
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Pages (12 total)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- `/` — Homepage (Hero + Trust + Entry Paths + Featured Guides)
-- `/china-basics/` — Hub "Das Wichtigste vor der Reise"
-- `/china-basics/visa/` — Visum für Schweizer
-- `/china-basics/esim/` — eSIM für China
-- `/china-basics/vpn/` — VPN für China
-- `/china-basics/bezahlung/` — Bezahlen in China
-- `/china-basics/sicherheit/` — Ist China sicher?
-- `/china-basics/zuege/` — Zugfahren in China
-- `/ziele/` — Städte-Hub (7 Städte, Links zu .com)
-- `/reise-planen/` — Routen & Budget
-- `/impressum/` — Schweizer Impressum (nDSG)
-- `/datenschutz/` — Datenschutz (nDSG)
-- `/cookie-richtlinie/` — Cookie Policy
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Key Differences from trailofchina.com
+## Learn More
 
-- All text in German
-- Swiss focus (CHF, nDSG, 30-day visa-free for Swiss)
-- Trust signals: "🇨🇭 Schweizer Unternehmen"
-- Affiliate links on basics pages
-- Deep links to trailofchina.com for city details
-- No city detail pages (link to .com instead)
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

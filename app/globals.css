@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+/* ── Design tokens (Trail of China visual identity) ── */
+:root {
+  --background: #f5f1ea;
+  --background-strong: #ebe4d8;
+  --surface: rgba(255, 252, 247, 0.86);
+  --surface-strong: #fffaf3;
+  --primary: #af5d32;
+  --primary-hover: #8f431c;
+  --foreground: #1f2933;
+  --muted: #5d6a73;
+  --line: #1f29331a;
+  --accent: #af5d32;
+  --accent-strong: #8f431c;
+  --accent-soft: #af5d321f;
+  --shadow-soft: 0 22px 60px #28211a14;
+  --shadow-card: 0 16px 40px #32291e17;
+  --radius-xl: 2rem;
+  --china-red: #E53935;
+  --china-gold: #FFB300;
+  --china-dark: #1a1a1a;
+  --dark-teal: #1a3a4a;
+}
+
+/* ── Tailwind v4 theme inline tokens ── */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-surface: var(--surface-strong);
+  --color-accent: var(--accent);
+  --color-dark-teal: var(--dark-teal);
+  --color-line: #e7dece;
+  --font-sans: "Inter", Aptos, "Segoe UI Variable Text", "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-serif: "Playfair Display", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, #fffffff2, transparent 28%),
+    radial-gradient(circle at top right, #af5d3214, transparent 22%),
+    linear-gradient(180deg, #f8f4ee 0%, var(--background) 48%, #f1ebe1 100%);
+  min-height: 100vh;
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+a {
+  transition: transform 0.18s, box-shadow 0.18s, background-color 0.18s, border-color 0.18s, color 0.18s;
+}
+
+::selection {
+  background: #af5d3233;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+
+/* ── Utility layers ── */
+@utility container-px {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  @media (min-width: 640px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  @media (min-width: 1024px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@utility font-serif {
+  font-family: var(--font-serif);
+}
+
+@utility glass-panel {
+  background: var(--surface);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-soft);
+  border: 1px solid #ffffffb3;
+}
+
+@utility section-shell {
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-card);
+  background: linear-gradient(#fffaf3, rgba(255, 252, 247, 0.86));
+}
+
+@utility accent-ring {
+  box-shadow: 0 0 0 1px #af5d3224, 0 16px 36px #af5d3224;
+}
+
+@utility touch-target {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+@utility no-horizontal-scroll {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
